@@ -29,12 +29,18 @@ public class Reader implements UserDetails {
 		return fullname;
 	}
 
+	
 	public void setFullname(String fullname) {
 		this.fullname = fullname;
 	}
 
 	
 	
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
@@ -48,13 +54,13 @@ public class Reader implements UserDetails {
 	@Override
 	public String getPassword() {
 		// TODO Auto-generated method stub
-		return null;
+		return password;
 	}
 
 	@Override
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return null;
+		return username;
 	}
 
 	@Override

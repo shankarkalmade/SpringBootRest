@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories("com.shankar.spring.dbrepos")
 @EntityScan("com.shankar.spring.models")
-@ComponentScan({"com.shankar.spring.models", "com.shankar.spring.controllers"})
+@ComponentScan({"com.shankar.spring.security", "com.shankar.spring.controllers"})
 public class SpringRestGradleApplication {
 
 	public static void main(String[] args) {
